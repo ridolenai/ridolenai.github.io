@@ -1,9 +1,12 @@
 
 .background {
-    background-color: pink;
-    color: rgb(29, 80, 19);
+    background-color: cadetblue;
+    /* color: rgb(235, 241, 179); */
     /* background-color: deeppink; */
-    font-family: "Comic Sans MS";
+    font-family: "Times New Roman";
     
 }
 
+.color2{
+    color: orange
+}
