@@ -52,9 +52,26 @@ h1, h2{
     to {top: -7500px; transform: translateZ(-2500px) rotateX(16deg) }
 }
 
+.contact {
+    background-color: orangered;
+    color: whitesmoke;
+    padding: 15px 30px;
+    border-radius: 2px;
+    border-color: black;
+}
 
+#contact-button{
+    position: fixed;
+    bottom: -2px;
+    right: 20px;
+}
 
-background-image: url(images/underwater_background.jpg); 
+#Projects-button{
+    position: fixed;
+    bottom: 2px;
+    left: -20px;
+    
+}
     
 
 
