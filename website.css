@@ -1,13 +1,54 @@
+/* import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap'); */
 
-.background {
-    background-color: cadetblue;
-    /* color: rgb(235, 241, 179); */
-    /* background-color: deeppink; */
-    font-family: "comic sans MS";
+
+body {background: rgb(20,20,20);
+    overflow: hidden;
+    font-family: 'Roboto';
+    margin: 30% 0 0 0;
+    position: relative;
+}
+
+body {
+    content: '';
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient((180deg, rgba(20,20,20,1) 40% rgba(20,20,20,1)100%));
+}
+
+.wrapped {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    perspective: 500px;
+}
+
+.rolling-text{
+    color: yellow;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: bold;
+    text-align: justify;
+    position: relative;
+    animation: they_see_me_rolling 60s linear infinite;
+   
+}
+
+h1, h2{
+    text-align: center;
+}
+
+@keyframes they_see_me_rolling {
+    from {top: 0; transform: translateZ(0)  rotateX(20deg) }
+    to {top: -7500px; transform: translateZ(-2000px) rotateX(21deg) }
+}
+
+
+/* .background-picture{
+    background-image: url(images/underwater_background.jpg);
     
-}
+} */
 
 
-.color2{
-    color: orange
-}
