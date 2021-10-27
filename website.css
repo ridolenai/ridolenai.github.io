@@ -9,6 +9,12 @@ body {background: rgb(0,0,0);
     
 }
 
+body {
+        background-image: url("images/burtonesque_family.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
 .fade {
     content: '';
     position: fixed;
@@ -21,7 +27,7 @@ body {background: rgb(0,0,0);
 .wrapped {
     display: flex;
     height: 75%;
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     perspective: 400px;
 }
@@ -33,7 +39,7 @@ body {background: rgb(0,0,0);
     font-weight: bold;
     text-align: justify;
     position: relative;
-    animation: they_see_me_rolling 120s linear;
+    animation: they_see_me_rolling 180s linear infinite;
    
 }
 
@@ -47,9 +53,9 @@ h1, h2{
 }
 
 
-/* .background-picture{
-    background-image: url(images/underwater_background.jpg);
+
+background-image: url(images/underwater_background.jpg); 
     
-} */
+
 
 
