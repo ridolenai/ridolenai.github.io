@@ -1,4 +1,4 @@
-/* import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap'); */
+
 
 
 body {background: rgb(20,20,20);
@@ -11,15 +11,15 @@ body {background: rgb(20,20,20);
 body {
     content: '';
     position: fixed;
-    top: 0;
+    top: 310px;
     width: 100%;
     height: 50%;
-    background: linear-gradient((180deg, rgba(20,20,20,1) 40% rgba(20,20,20,1)100%));
+    background-image: linear-gradient((180deg, rgba(20,20,20,1) 40% rgba(20,20,20,1)100%));
 }
 
 .wrapped {
     display: flex;
-    height: 100%;
+    height: 75%;
     width: 60%;
     margin: 0 auto;
     perspective: 500px;
@@ -32,7 +32,7 @@ body {
     font-weight: bold;
     text-align: justify;
     position: relative;
-    animation: they_see_me_rolling 60s linear infinite;
+    animation: they_see_me_rolling 20s linear infinite;
    
 }
 
@@ -42,9 +42,12 @@ h1, h2{
 
 @keyframes they_see_me_rolling {
     from {top: 0; transform: translateZ(0)  rotateX(20deg) }
-    to {top: -7500px; transform: translateZ(-2000px) rotateX(21deg) }
+    to {top: -7500px; transform: translateZ(-2500px) rotateX(16deg) }
 }
 
+/* .lasersword{
+    <audio controls> <source src ="images/swing01.mp3" type="audio/mp3">; */
+/* } */
 
 /* .background-picture{
     background-image: url(images/underwater_background.jpg);
