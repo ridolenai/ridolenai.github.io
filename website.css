@@ -64,10 +64,15 @@ h1, h2{
     right: 20px;
 }
 
-#contact-button{
+.projects {
+    background-color: orangered;
+    color: white;
     position: fixed;
-    bottom: -2px;
-    right: 20px;
+    padding: 15px 30px;
+    border-radius: 2px;
+    border-color: orangered;
+    bottom: 2px;
+    left: 20px;
     
 }
 
@@ -76,6 +81,17 @@ h1, h2{
     bottom: 2px;
     left: -10px;
     
+}
+.future-projects {
+    background-color: orangered;
+    color: white;
+    position: fixed;
+    padding: 15px 30px;
+    border-radius: 2px;
+    border-color: orangered;
+    bottom: 40px;
+    left: 20px;
+
 }
     
 
