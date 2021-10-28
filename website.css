@@ -2,7 +2,7 @@
 
 
 body {background: rgb(0,0,0);
-    /* overflow: hidden; */
+    overflow: hidden;
     font-family: 'Roboto';
     margin: 30% 0 0 0;
     position: relative;
@@ -15,6 +15,7 @@ body {
         background-attachment: fixed;
         background-size: cover;
     }
+
 .fade {
     content: '';
     position: fixed;
@@ -49,27 +50,31 @@ h1, h2{
 
 @keyframes they_see_me_rolling {
     from {top: 0; transform: translateZ(0)  rotateX(20deg) }
-    to {top: -7500px; transform: translateZ(-2500px) rotateX(16deg) }
+    to {top: -9500px; transform: translateZ(-2500px) rotateX(16deg) }
 }
 
 .contact {
     background-color: orangered;
-    color: whitesmoke;
+    color: white;
     padding: 15px 30px;
     border-radius: 2px;
-    border-color: black;
+    border-color: orangered;
+    position: fixed;
+    bottom: -2px;
+    right: 20px;
 }
 
 #contact-button{
     position: fixed;
     bottom: -2px;
     right: 20px;
+    
 }
 
 #Projects-button{
     position: fixed;
     bottom: 2px;
-    left: -20px;
+    left: -10px;
     
 }
     
